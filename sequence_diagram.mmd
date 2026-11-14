@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant A as Admin
+    participant O as Organizer
+    participant B as Buyer
+    participant S as Venue Scanner
+    participant C as TicketTrust Contract
+    A->>C: grantOrganizer(O), grantScanner(S)
+    O->>C: registerEvent(eventId)
+    O->>C: issueTicket(ticketId, eventId, B)
+    C-->>B: TicketIssued / Valid
+    B->>C: transferTicket(ticketId, buyer2) [optional]
+    S->>C: getStatus(ticketId) via application
+    C-->>S: eventId, holder, Valid
+    S->>C: markUsed(ticketId)
+    C-->>S: TicketUsed / status = Used
+    S->>C: markUsed(ticketId) [repeat scan]
+    C-->>S: revert: InvalidTicketState
