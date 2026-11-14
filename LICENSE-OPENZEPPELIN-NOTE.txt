@@ -1,0 +1,1 @@
+OpenZeppelin Contracts is distributed under the MIT License. See https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/LICENSE for the licence text. Keep dependency notices intact.
