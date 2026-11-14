@@ -43,7 +43,7 @@ The suite checks organizer issuance, unauthorized issuance, valid transfer, reje
 
 ## Repository and demo
 GitHub repository: (https://github.com/Polarbee-beep/Introduction_to_finance_Final)
-Demo video (up to 3 minutes): [ADD SHAREABLE VIDEO URL BEFORE SUBMISSION]
+Demo video (up to 3 minutes): https://youtu.be/dGJFQltRLJc
 The report and title slide must show the same links. The project owner must test each link in a logged-out browser before submission.
 
 ## AI and open-source disclosure
