@@ -42,7 +42,7 @@ The suite checks organizer issuance, unauthorized issuance, valid transfer, reje
 5. A second scan is rejected because the ticket is already Used.
 
 ## Repository and demo
-GitHub repository: [ADD PUBLIC REPOSITORY URL BEFORE SUBMISSION]
+GitHub repository: (https://github.com/Polarbee-beep/Introduction_to_finance_Final)
 Demo video (up to 3 minutes): [ADD SHAREABLE VIDEO URL BEFORE SUBMISSION]
 The report and title slide must show the same links. The project owner must test each link in a logged-out browser before submission.
 
